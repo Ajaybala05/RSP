@@ -1,0 +1,48 @@
+.header
+{
+    width:100%;
+    height:80px;
+    background-color: #856f70;
+    text-align: right;
+}
+
+.btncontainer
+{
+ padding: 20px;
+}
+
+.btn
+{
+    background-color: rgb(179, 145, 145);
+    color: black;
+    width: 112px;
+    height: 40px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.blogrow1, .blogrow2
+{
+    display: flex;  
+}
+
+
+.container
+{
+    text-align: center;
+    font-size: larger;
+    padding: 20px;
+    color: #834347;
+}
+
+
+.img
+{
+    width: 80%;
+    height: 50%;
+    
+}

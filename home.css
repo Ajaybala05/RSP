@@ -1,0 +1,460 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.head {
+    background-color: black;
+    display: grid;
+}
+
+.homepg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logoimg {
+    width: 100px;
+    height: 100px;
+    max-height: 90px;
+    margin-left: 10px;
+}
+
+.companynm {
+    margin-top: 25px;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.logoandname {
+    display: flex;
+    align-items: center;
+}
+
+.btncontainer {
+    margin-right: 10px;
+    word-spacing: 8px;
+    margin-top: 35px;
+}
+
+.homebtn,
+.servicebtn,
+.projectbtn,
+.teambtn,
+.blogbtn,
+.contactbtn {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin: 0 5px;
+}
+
+
+
+.bgimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wallpaper {
+    position: relative;
+    text-align: center;
+}
+
+.infocontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    
+}
+
+
+.knowmore {
+    background-color: black;
+    color: white;
+    width: 112px;
+    height: 40px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.services {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.our-services {
+    color: whitesmoke;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.iot-projects,
+.web-development,
+.paper-presentation,
+.technical-services {
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    border: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.iot-projects {
+    top: 40%;
+    left: 28%;
+}
+
+.web-development {
+    top: 40%;
+    right: 25%;
+}
+
+.paper-presentation {
+    top: 80%;
+    left: 26%;
+}
+
+.technical-services {
+    top: 80%;
+    right: 24%;
+}
+
+.square1,
+.square2,
+.square3,
+.square4 {
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.square1 {
+    top: 16%;
+    left: 30%;
+}
+
+.square2 {
+    top: 16%;
+    right: 29%;
+}
+
+.square3 {
+    top: 56%;
+    left: 30%;
+}
+
+.square4 {
+    top: 56%;
+    right: 29%;
+}
+
+.teamheading {
+    color: black;
+    font-size: xx-large;
+    padding: 5px;
+    text-align: center;
+}
+
+#teamdesc {
+    color: white;
+    font-size: large;
+    font-family: monospace;
+    padding: 5px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.column1 {
+    color: white;
+    background-color: rgb(100, 94, 94);
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#img1,
+#img2,
+#img3 {
+    width: 250px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.moreservices {
+    text-align: center;
+}
+
+.seemorebtn {
+    background-color: black;
+    color: white;
+    width: 110px;
+    height: 35px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.teamname {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+.profile {
+    color: rgb(157, 167, 192);
+    text-align: center;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.label {
+    color: white;
+    cursor: pointer;
+}
+
+#fname,
+#lname,
+#message {
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+.contactpage {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+}
+
+.col1,
+.col2 {
+    width: 50%;
+    padding: 20px;
+}
+
+.contacth1,
+.contacth2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: ivory;
+    font-size: x-large;
+}
+
+.contacth1 {
+    padding-left: 10%;
+}
+
+.contacth2 {
+    padding-right: 20%;
+}
+
+.condesc {
+    font-size: 18px;
+    color: darkgrey;
+}
+
+#adress {
+    color: darkgrey;
+    padding-left: 10%;
+}
+
+#about {
+    font-size: large;
+    color: darkgrey;
+}
+
+.footer {
+    font-size: small;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .homepg {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btncontainer {
+        margin-top: 10px;
+    }
+
+    .infocontainer {
+        font-size: 20px;
+    }
+
+    .infocontainer h3 {
+        font-size: 1.5em;
+    }
+
+    .infocontainer p {
+        font-size: 0.9em;
+    }
+
+    .services {
+        height: auto;
+    }
+   .logoandname{
+    font-size: .3rem;
+   }
+    .iot-projects,
+    .web-development,
+    .paper-presentation,
+    .technical-services,
+    .square1,
+    .square2,
+    .square3,
+    .square4 {
+        position: static;
+        margin: 10px 0;
+        height: full;
+        width: full;
+        text-align: center;
+    }
+.words{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 20px;
+}
+.services-grid{
+    display:grid;
+    grid-column:1;
+    
+}
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column1 {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    #img1,
+    #img2,
+    #img3 {
+        width: 90%;
+        height: auto;
+    }
+
+    .col1,
+    .col2 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .contacth1,
+    .contacth2 {
+        padding: 0;
+        text-align: center;
+    }
+
+    #adress {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+.wallpaper {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.bgimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.infocontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.knowmore {
+    background-color: black;
+    color: white;
+    width: 112px;
+    height: 40px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .infocontainer {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .infocontainer h3 {
+        font-size: .5em;
+    }
+
+    .infocontainer p {
+        font-size: 0.5em;
+    }
+
+    .knowmore {
+        width: 100px;
+        height: 35px;
+        font-size: medium;
+    }
+}
+
